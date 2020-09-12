@@ -17,10 +17,10 @@ public class StringsRecursion {
 	
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-//		 String str  = s.next();
-//		 char a = s.next().charAt(0); 
-//		 char b = s.next().charAt(0); 
-		System.out.println(replaceChar("anjali",'a','z'));
+		 String str  = s.next();
+		 char a = s.next().charAt(0); 
+		 char b = s.next().charAt(0); 
+		System.out.println(replaceChar(str,a,b));
 			
 
 	}
