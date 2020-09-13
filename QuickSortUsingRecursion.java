@@ -21,7 +21,7 @@ public class QuickSort {
 			{
 				i++;
 			}
-			if(j<= h && A[j]>pivot)
+			while(j<= h && A[j]>pivot)
 			{
 				j--;
 			}
