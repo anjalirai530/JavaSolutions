@@ -1,5 +1,7 @@
 public static NodeR<Integer> insertR(NodeR<Integer>head,int val,int index)
 	{
+               if(head == null &&  index >0)
+                     return head;
 		
 		if(index == 0)
 		{
